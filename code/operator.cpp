@@ -9,5 +9,13 @@ int main() {
     cout << "* is " << a * b << endl;
     cout << "/ is " << a / b << endl;
 
+    a += 90;
+
+    cout << "a + 90 is " << a  << endl;
+
+    a++;
+
+    cout << a << endl;
+
     return 0;
 }
